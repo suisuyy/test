@@ -10,4 +10,11 @@ sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmwe
 
 
 
+
 https://kasmweb.com/docs/latest/install/single_server_install.html
+
+
+cd /tmp
+curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.11.0.18142e.tar.gz
+tar -xf kasm_release*.tar.gz
+sudo bash kasm_release/install.sh -I  #use -I not preseed img for save space
