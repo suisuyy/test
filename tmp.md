@@ -5,3 +5,5 @@ The container is now accessible via a browser : https://<IP>:6901
 
     User : kasm_user
     Password: password
+
+https://kasmweb.com/docs/latest/install/single_server_install.html
