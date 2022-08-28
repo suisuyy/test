@@ -1,5 +1,6 @@
 https://index.docker.io/v1/
 docker kill $(docker ps -q)
+docker pull kasmweb/chromium:1.11.0-rolling
 
 
 
