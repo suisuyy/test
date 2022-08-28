@@ -5,5 +5,8 @@ The container is now accessible via a browser : https://<IP>:6901
 
     User : kasm_user
     Password: password
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/ubuntu-focal-desktop:develop
+
+
 
 https://kasmweb.com/docs/latest/install/single_server_install.html
