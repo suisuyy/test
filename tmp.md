@@ -1,7 +1,7 @@
 https://index.docker.io/v1/
 docker kill $(docker ps -q)
 docker pull kasmweb/chromium:1.11.0-rolling
-
+docker pull kasmweb/ubuntu-focal-desktop:1.11.0-rolling
 
 
 https://gist.github.com/suisuyy/d69d11f06fd644f46580a76af1e7790a
