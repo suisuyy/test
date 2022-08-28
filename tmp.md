@@ -1,4 +1,5 @@
 https://index.docker.io/v1/
+docker kill $(docker ps -q)
 
 
 
